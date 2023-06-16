@@ -1,0 +1,90 @@
+
+<html>
+<head>
+<style>
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: auto;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color:turquoise;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
+</head>
+<body>
+
+<div class ="container" align="center">
+  <img src="dips.jpg" alt="dips" class="image" style="width:50%">
+  <div class="middle">
+    <div class="text">Joseph Dipol</div>
+  </div>
+</div>
+
+<div class="container" align="center">
+  <img src="jem.jpg" alt="jem" class="image"
+style="width:50%">
+  <div class="middle">
+    <div class="text">Jem Adriano</div>
+  </div>
+
+<div class="container" align="center">
+  <img src="joyce1.jpg" alt="joyce" class="image" style="width:50%">
+  <div class="middle">
+    <div class="text">Joyce Gigante</div>
+  </div>
+
+
+<div class="container" align="center">
+  <img src="coleen1.jpg" alt="coleen" class="image" style="width:50%">
+  <div class="middle">
+    <div class="text">Coleen Santiago</div>
+  </div>
+
+
+
+
+
+
+
+
+<body bgcolor="black">
+
+
+
+</body>
+
+
+
+ 
+</html>
